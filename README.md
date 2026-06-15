@@ -6,7 +6,7 @@ Key Learning Objectives: Focus on the Agent-Task-Crew hierarchy, how to define A
 
 
 
-*Phase 1: Defining the Personas
+- Phase 1: Defining the Personas
 
 Focus: Specialization & Authority
 Agent 1 (The Researcher): Role: Senior Research Analyst.
@@ -17,7 +17,7 @@ Goal: Synthesize technical research into a viral, engaging LinkedIn post.
 Backstory: A master of digital storytelling and professional networking growth.
 
 
-*Phase 2: Orchestrating the Workflow
+- Phase 2: Orchestrating the Workflow
 
 Focus: Task Delegation
 The Research Task: Instruct the Researcher to find 3 specific "Breakthroughs" or "Trends" related to AI agents.
@@ -25,7 +25,7 @@ The Writing Task: Instruct the Writer to take the Researcher's output and format
 Handoff Logic: Use a sequential process where the Writer cannot start until the Researcher provides the "Research Report."
 
 
-*Phase 3: Execution & Output
+- Phase 3: Execution & Output
 
 Focus: Implementation
 The Crew/Chain: Initialize your framework (CrewAI, LangGraph, or LangChain) and kick off the process.
@@ -33,4 +33,10 @@ The Result: Print the final LinkedIn post to the console or save it to a file.
 Observation: Note how the "Writer" interprets the technical data differently than the "Researcher."
 
 
-Tech Stack: LangChain, Google Gemini API (gemini-2.5-flash), Python, python-dotenv.
+* Tech Stack: LangChain, Google Gemini API (gemini-2.5-flash), Python, python-dotenv.
+
+##  Setup Instructions
+1. Clone this repository.
+2. Install the required libraries: `pip install langchain-google-genai langchain-core python-dotenv`
+3. Create a `.env` file and add your API key: `GEMINI_API_KEY="your_key"`
+4. Run the script: `python multi_agent_squad.py`
