@@ -6,7 +6,7 @@ Key Learning Objectives: Focus on the Agent-Task-Crew hierarchy, how to define A
 
 
 
-Phase 1: Defining the Personas
+*Phase 1: Defining the Personas
 
 Focus: Specialization & Authority
 Agent 1 (The Researcher): Role: Senior Research Analyst.
@@ -17,7 +17,7 @@ Goal: Synthesize technical research into a viral, engaging LinkedIn post.
 Backstory: A master of digital storytelling and professional networking growth.
 
 
-Phase 2: Orchestrating the Workflow
+*Phase 2: Orchestrating the Workflow
 
 Focus: Task Delegation
 The Research Task: Instruct the Researcher to find 3 specific "Breakthroughs" or "Trends" related to AI agents.
@@ -25,7 +25,7 @@ The Writing Task: Instruct the Writer to take the Researcher's output and format
 Handoff Logic: Use a sequential process where the Writer cannot start until the Researcher provides the "Research Report."
 
 
-Phase 3: Execution & Output
+*Phase 3: Execution & Output
 
 Focus: Implementation
 The Crew/Chain: Initialize your framework (CrewAI, LangGraph, or LangChain) and kick off the process.
