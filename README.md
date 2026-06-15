@@ -31,3 +31,6 @@ Focus: Implementation
 The Crew/Chain: Initialize your framework (CrewAI, LangGraph, or LangChain) and kick off the process.
 The Result: Print the final LinkedIn post to the console or save it to a file.
 Observation: Note how the "Writer" interprets the technical data differently than the "Researcher."
+
+
+Tech Stack: LangChain, Google Gemini API (gemini-2.5-flash), Python, python-dotenv.
